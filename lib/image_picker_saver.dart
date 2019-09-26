@@ -87,6 +87,7 @@ class ImagePickerSaver {
     if(filePath.startsWith("file://")){
       filePath=filePath.replaceAll("file://", "");
     }
-    return  filePath;
+    // return  filePath;
+    return  '成功';
   }
 }
